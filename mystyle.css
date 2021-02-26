@@ -1,0 +1,138 @@
+html, body{
+	height: 100%;
+	width: 100%;
+	margin: 0
+
+}
+
+#welcome-header {
+	text-align: center;
+	background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/68/Grass_dsc08672-nevit.jpg');
+	background-position: center; 
+	color: white;
+	margin-bottom: 0;
+	height: 100vh;
+	background-repeat: no-repeat;
+    background-size: cover;
+/*	font: ;*/
+}
+
+.paw-print-score{
+	height: 4vh;
+	width: 5vw;
+	margin: 10px 7px;
+}
+
+.submitbutton{
+	color:white;
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.qrcode-text {padding-right:1.7em; margin-right:0}
+.qrcode-text-btn {display:inline-block; background:url(//dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/07/1499401426qr_icon.svg) 50% 50% no-repeat; height:1em; width:1.7em; margin-left:-1.7em; cursor:pointer}
+.qrcode-text-btn > input[type=file] {position:absolute; overflow:hidden; width:1px; height:1px; opacity:0}
+
+.score-img{
+    height: 40vh;
+/*	width: 95vw;*/
+}
+
+
+.animalfarm-img{
+	height: 15vh;
+	width: 80vw;
+
+}
+
+.animals-img{
+	height: 45vh;
+	width: 50vw;
+	
+	}
+
+.paw-img {
+	height: 20vh;
+}
+
+.map-img{
+	height: 65vh;
+	width: 100vw;
+
+}
+
+.saboteur-img{
+	height: 30vh;
+	width: 40vw;
+
+}
+
+
+.form-check{
+
+	padding: 0.1rem;
+}
+
+.form-check2{
+
+	padding: 0.4rem;
+}
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+	.score-img{
+		height: 40vh;
+		width: 95vw;
+	}
+
+
+	.animalfarm-img{
+		height: 12vh;
+		width: 90vw;
+	} 
+
+	.animals-img{
+		height: 20vh;
+		width: 50vw;
+	} 
+
+	.map-img{
+		height: 35vh;
+		width: 100vw;
+	}
+
+}
+
+/* ----------- Phones ----------- */
+
+/* Portrait and Landscape */
+/*@media screen and (max-width:500px) 
+  {
+
+	.score-img{
+		height: 40vh;
+		width: 95vw;
+	}
+
+	.animals-img{
+		height: 20vh;
+		width: 100vw;
+	} 
+
+	.map-img{
+		height: 35vh;
+		width: 100vw;
+	}
+
+	.form-check-input{
+  		transform:scale(5) !important;
+	}
+
+}
+
+*/
